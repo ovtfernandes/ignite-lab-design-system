@@ -1,15 +1,17 @@
 import { useState } from 'react';
 import { Check } from 'phosphor-react';
-import { clsx } from 'clsx';
 
-export interface CheckboxProps {};
+export interface CheckboxProps {
+    id?: string;
+};
 
-export function Checkbox({}: CheckboxProps) {
+export function Checkbox({ id }: CheckboxProps) {
     const [checked, setChecked] = useState(true);
 
     return (
         <label className="flex items-center justify-items-center w-6 h-6 p-[2px] bg-gray-800 rounded">
             <input
+                id={id}
                 type="checkbox"
                 style={{ display: 'none' }}
                 onChange={event => setChecked(event.target.checked)}
