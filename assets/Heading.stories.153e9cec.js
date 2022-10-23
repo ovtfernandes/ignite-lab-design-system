@@ -1,0 +1,2 @@
+import{H as e}from"./Heading.116efef1.js";import"./clsx.m.256e9345.js";import"./jsx-runtime.00e814c8.js";import"./index.2a6ae4cf.js";import"./iframe.5f0a9c78.js";const a={title:"Components/Heading",component:e,args:{children:"Lorem ipsum.",size:"md"},argTypes:{size:{options:["sm","md","lg"],control:{type:"inline-radio"}}}},n={},m={args:{size:"sm"}},l={args:{size:"lg"}},p=["Default","Small","Large"];export{n as Default,l as Large,m as Small,p as __namedExportsOrder,a as default};
+//# sourceMappingURL=Heading.stories.153e9cec.js.map

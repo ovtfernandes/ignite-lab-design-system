@@ -1,0 +1,2 @@
+import{T as t}from"./Text.4f127aae.js";import"./clsx.m.256e9345.js";import"./jsx-runtime.00e814c8.js";import"./index.2a6ae4cf.js";import"./iframe.5f0a9c78.js";const m={title:"Components/Text",component:t,args:{children:"Lorem ipsum.",size:"md"},argTypes:{size:{options:["sm","md","lg"],control:{type:"inline-radio"}}}},a={},n={args:{size:"sm"}},l={args:{size:"lg"}},p=["Default","Small","Large"];export{a as Default,l as Large,n as Small,p as __namedExportsOrder,m as default};
+//# sourceMappingURL=Text.stories.5f328a10.js.map
